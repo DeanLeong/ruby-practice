@@ -2,29 +2,25 @@
 
 ## Getting started
 
-1. Fork
-1. Create a feature branch
-1. Clone
-1. Pull Request
+1. Fork and Clone
+2. `cd` into the repo directory
 
 # Ruby Practice
 
 ### Setup
 
-First run `bundle install` in this directory.  This will install everything in our `Gemfile`.  (In this case it's just `rspec`)
+First run `bundle install` (or `bundle` for short) in this directory.  This will install everything in our `Gemfile`.  (In this case it's just `rspec`)
 
 ### Practice time!
 
-To run the specs, just `rspec test.rb`.  Or you can run `rspec test.rb --fail-fast` if you prefer for tests to stop after the first failure.
+To run the specs, just `rspec`.  Or you can run `rspec --fail-fast` if you prefer for tests to stop after the first failure.
 
-Open up `test.rb` in your text editor to read the specs.  (But do not edit them.)
-
-At first everything will fail.  Open up `methods.rb` and make em pass!  **Commit** after you get each spec to pass.
+At first everything will fail.  Open up `methods.rb` and make em pass!
 
 ## Bonus
 
 Want more practice?
 
-Define some of the `underscore.js` methods in Ruby!  Specifically, define some [`Hash` methods](http://underscorejs.org/#objects) and [`Array` methods](http://underscorejs.org/#arrays)
+Define some of the [underscorejs.org](http://underscorejs.org) methods in Ruby!  Specifically, define some [`Hash` methods](http://underscorejs.org/#objects) and [`Array` methods](http://underscorejs.org/#arrays)
 
 Doing this is both fun and really good practice. Try these any time you're learning a new language.

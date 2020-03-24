@@ -1,4 +1,4 @@
-require_relative 'methods'
+require_relative '../methods'
 
 describe '#arr_count' do
 
